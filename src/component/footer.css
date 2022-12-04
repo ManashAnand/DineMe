@@ -51,6 +51,7 @@ footer a{
     background: transparent;
     color: red;
     border-color: red;
+    transform: translateY(-5px) ;
 }
 
 .footer__copyright{

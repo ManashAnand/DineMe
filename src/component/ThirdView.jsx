@@ -7,7 +7,7 @@ export default function ThirdView() {
 
     const [search,setSearch] = useState("");
     const [btnValue,setbtnValue] = useState("orange");
-    const apikey = `https://api.spoonacular.com/recipes/findByIngredients?ingredients=${btnValue}?query=${btnValue}&apiKey=96a3052c31c549b697f30aee47939b02`;
+    const apikey = `https://api.spoonacular.com/recipes/findByIngredients?ingredients=${btnValue}?query=${btnValue}&apiKey=69f6930e57df4e1895b03db259c4ddd7`;
 
     const updateText = (e) => {
         setSearch(e.target.value);
@@ -23,7 +23,6 @@ export default function ThirdView() {
     {
         setbtnValue(search);
         setSearch("");
-        console.log(mainData);
     }
     const getData = async () =>
     {

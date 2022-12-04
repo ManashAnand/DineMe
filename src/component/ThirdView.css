@@ -51,6 +51,9 @@
     font-weight: bold;
     cursor: pointer;
 }
+.enterBtn:active{
+    transform: scale(0.96);
+}
 
 @media screen and (max-width: 425px) {
     .firstBox{
