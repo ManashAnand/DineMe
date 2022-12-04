@@ -1,0 +1,147 @@
+.container{
+    display: flex;
+    flex-flow: column;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    height: 20rem;
+    z-index: 1;
+    padding-top: 16px;
+    padding-bottom: 192px;
+
+    width: 100%;
+    background: url(../image/FirstView.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+   
+  }
+  .foodicon{
+    transform: translateX(8px) translateY(5px) scale(0.9);
+   }
+   .sarcasm{
+    font-size: 1rem;
+   }
+  .foodTitle{
+    color: red;
+    font-size: 3rem;
+    letter-spacing: 2px ;
+    font-family: 'Miltonian', cursive;
+    font-family: 'Nerko One', cursive;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 6rem;
+  }
+  .main-container{
+    /* border: 2px solid ; */
+    width: 50rem;
+    letter-spacing: 3px ;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 100rem;
+}
+
+  .titleContainer{
+    
+    font-size: 5rem;
+    font-weight: bold;
+    /* border: 2px solid red; */
+    color: red;
+    font-family: 'Miltonian', cursive;
+    font-family: 'Nerko One', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+  }
+
+  .inputField{
+    outline: none;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 2rem;
+    width: 25rem;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: ; */
+}
+
+#CTA{
+    outline: none;
+    /* border: 1px solid black; */
+    margin-left: 25px;
+    border: 0;
+    width: 20rem;
+    height: 2rem;
+    background: transparent; 
+}
+#CTA::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.554);
+    font-weight: bold;  
+}
+.btn{
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 50%;
+    height: 21px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.btn::before{
+    content: "→";
+    position: relative;
+    bottom: 10%;
+    font-size: 800;
+    font-weight: bold;
+
+}
+.btn:hover{
+ scale: 1.2;
+}
+
+@media screen and (max-width: 375px) {
+  .container{
+    width: 254%;
+  }
+  .foodTitle{
+    color: rgb(32, 192, 29);
+  }
+  .pickUpLine{
+    font-size: 1rem;
+  }
+  .inputField{
+    width: 17rem;
+  }
+ }
+@media screen and (max-width: 425px) {
+  .container{
+    width: 254%;
+  }
+  .foodTitle{
+    color: rgb(32, 192, 29);
+  }
+  .pickUpLine{
+    font-size: 1rem;
+  }
+  .inputField{
+    width: 17rem;
+  }
+ }
+@media (min-width:425px) and (max-width: 768px) {
+    .container{
+      width: 207%;
+    }
+}
+@media (min-width:768px) and (max-width: 1024px){
+  .container{
+    width: 1600px;
+  }
+}

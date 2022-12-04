@@ -1,0 +1,28 @@
+.CardContainer{
+    display: flex;
+    overflow: scroll;
+
+}
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+    border-radius: 2rem;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: white; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: grey; 
+    
+    border-radius: 2rem;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+    cursor: pointer;
+  }

@@ -1,0 +1,73 @@
+.thirdContainer{
+    /* border: 2px solid ; */
+    height: 30rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.firstBox{
+    border: 2px solid red;
+    height: 15rem;
+    width: 20%;
+     display: flex;
+     justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2rem;
+}
+.secondBox{
+    /* border: 2px solid red; */
+    height: 15rem;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.head{
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px red;
+    color: black;
+}
+
+.inputFooditem{
+    /* border: 2px solid; */
+    width: 14rem;
+}
+.itemInput{
+    width: 14rem;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid red;
+    text-align: center;
+}
+.enterBtn{
+    border: 2px solid black;
+    background-color: red;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 425px) {
+    .firstBox{
+        width: 70%;
+        margin-left: 20rem;
+        margin-right: 5rem;
+    }
+   }
+   @media (min-width:425px) and (max-width: 768px) {
+    .firstBox{
+        width: 100%;
+        margin-left: 20rem;
+        margin-right: 5rem;
+    }
+}
+@media (min-width:768px) and (max-width: 1024px) {
+ .thirdContainer{
+    width: 78rem;
+ }
+}

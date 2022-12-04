@@ -1,0 +1,19 @@
+.card-diff {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 5px;
+    margin: 0 2rem;
+  }
+  
+  .card-diff:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .card-diff-img {
+    border-radius: 5px 5px 0 0;
+    width: 10rem;
+    height: 10rem;
+  }
+  
